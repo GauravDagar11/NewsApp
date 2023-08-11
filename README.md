@@ -15,7 +15,25 @@ Login Credentials :-
 username : Gaurav
 passowrd: Gaurav@123
 
-In this project any one can register yourself by providing details on the register page. If username,email,number already taken then error will be shown. Password should be combination of Capital letter, Lower case letter,digit, special characters.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+client/my-app 
+
+path "/" is the welcome page where user needs to register or login himself to proceed further.
+path "/register" to register.
+path "/login" to login.
+path "/news/:id" where page have different news categories.
+path "/saved-news" where user can see their saved news.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+server
+
+path "/registration" API to check details from the client and regsiter. 
+path "/login" API to chck details from the client and login.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+In this project any one can register himself by providing details on the register page. If username,email,number already taken then error will be shown. Password should be combination of Capital letter, Lower case letter,digit, special characters.
 After login users can see all the news and can also save them.
 
 Technologies Used :- React Js, Node Js, Express, Sqlite, Modern Authorisation Token, Cookies, Local storage, Hooks.
