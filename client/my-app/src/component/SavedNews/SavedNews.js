@@ -28,6 +28,7 @@ const SavedNews = (props) => {
     } else {
       setData(parsedValue);
     }
+    document.title = "News Bookmarks";
   }, []);
 
   const backButton = () => {

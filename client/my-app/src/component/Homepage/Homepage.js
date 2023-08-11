@@ -16,6 +16,7 @@ const Homepage = (props) => {
       const { history } = props;
       history.replace(`/news/${siteId}`);
     }
+    document.title = "Welcome To Global News";
   }, []);
   const registerButton = () => {
     const { history } = props;

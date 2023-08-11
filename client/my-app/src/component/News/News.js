@@ -23,6 +23,10 @@ const News = () => {
     localStorage.setItem("saved_news_data", JSON.stringify(savedNews));
   }, [savedNews]);
 
+  useEffect(() => {
+    document.title = "News";
+  }, []);
+
   const fetchData = async () => {
     setApi(apiStatusConstants.loading);
     const localStorageValue = localStorage.getItem("active_btn");

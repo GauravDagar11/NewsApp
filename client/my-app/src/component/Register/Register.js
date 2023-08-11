@@ -36,6 +36,7 @@ const Register = (props) => {
     if (name !== "" && email !== "" && number !== "" && password !== "") {
       uploadData();
     }
+    document.title = "Register";
   }, []);
 
   const dataSuccess = () => {

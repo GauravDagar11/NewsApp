@@ -25,6 +25,7 @@ const Login = (props) => {
       const { history } = props;
       history.replace(`/news/${siteId}`);
     }
+    document.title = "Login";
   }, []);
 
   const changeUsername = (event) => {
