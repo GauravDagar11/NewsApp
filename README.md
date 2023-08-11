@@ -15,8 +15,7 @@ Login Credentials :-
 username : Gaurav
 passowrd: Gaurav@123
 
-In this project any one can register yourself by providing details on the register page. If username,email,number already taken then error will be shown. Password should be combination of 
-Capital letter, Lower case letter,digit, special characters.
+In this project any one can register yourself by providing details on the register page. If username,email,number already taken then error will be shown. Password should be combination of Capital letter, Lower case letter,digit, special characters.
 After login users can see all the news and can also save them.
 
 Technologies Used :- React Js, Node Js, Express, Sqlite, Modern Authorisation Token, Cookies, Local storage, Hooks.
