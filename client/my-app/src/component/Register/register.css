@@ -1,0 +1,97 @@
+.bg {
+background-image: url("https://img.freepik.com/premium-photo/keyboard-coffee-smartphone-notebook-color-background-top-view_1286-776.jpg");
+background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.form {
+   padding: 50px;
+   padding-top: 10px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0px 4px 16px 0px #bfbfbfbf;
+   border-radius: 10px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+input {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ffffff;
+    height: 30px;
+    width: 350px;
+    color: #ffffff;
+    padding-left: 10px;
+    border-radius: 5px;
+
+    
+    &::placeholder{
+        color: #ffffff;
+        
+        font-size: 10px;
+    }
+}
+
+.error-msg {
+    color: orangered;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.btn {
+    margin-top: 20px;
+    &:disabled{
+        cursor: not-allowed;
+        transition: all 2s ease;
+    }
+    &:valid{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 2s ease;
+    height: 20px;
+    }
+    transition: all 2s ease;
+    &:valid:hover{
+            background-color: transparent;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            cursor: pointer;
+            height: 30px;
+            transition:height 1s ease;
+}
+}
+
+.or {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.login-btn {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    height: 30px;
+    cursor: pointer;
+transition: all 1s ease;
+    &:hover{
+        background-color: #ffffff;
+        border: none;
+        color: green;
+        transition: all 1s ease;
+    }
+}

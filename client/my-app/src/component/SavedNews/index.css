@@ -1,0 +1,16 @@
+.no-bookmark-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.not-found-img {
+    mix-blend-mode: multiply;
+    height: 300px;
+}
+
+.no-bookmark {
+    color: grey;
+}

@@ -1,0 +1,10 @@
+.login-bg {
+    background-image: url("https://wallpaperaccess.com/full/2314983.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
